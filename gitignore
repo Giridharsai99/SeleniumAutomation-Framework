@@ -1,0 +1,58 @@
+# Compiled class files
+*.class
+target/
+build/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output and reports
+test-output/
+allure-results/
+allure-report/
+target/surefire-reports/
+target/extent-reports/
+screenshots/
+*.tmp
+
+# Sensitive — never commit
+config/secrets.properties
+.env
+*.key
+credentials.json
+
+# WebDriver downloads (Selenium Manager handles this now, but just in case)
+drivers/
