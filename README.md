@@ -1,6 +1,8 @@
 # Selenium Automation Framework
 
-End-to-end UI + API test automation framework built with **Java 17, Selenium 4, TestNG, and REST Assured**, demonstrating production-grade patterns: Page Object Model, thread-safe parallel execution, data-driven testing, CI integration, and rich reporting.
+End-to-end UI + API test automation framework built with **Java 17, Selenium 4, TestNG, and REST Assured**,
+demonstrating production-grade patterns: Page Object Model, thread-safe parallel execution, data-driven testing, CI
+integration, and rich reporting.
 
 > 🚧 **Status:** Active development — see the [Roadmap](#roadmap) section for progress.
 
@@ -8,17 +10,17 @@ End-to-end UI + API test automation framework built with **Java 17, Selenium 4, 
 
 ## 🛠 Tech Stack
 
-| Layer | Tool |
-|---|---|
-| Language | Java 17 |
-| UI Automation | Selenium WebDriver 4.21 |
-| Test Runner | TestNG 7.10 |
-| API Testing | REST Assured 5.4 |
-| Build | Maven |
-| Reporting | ExtentReports / Allure |
-| Logging | Log4j2 |
-| CI | Jenkins (Pipeline) |
-| Version Control | Git + GitHub |
+| Layer           | Tool                    |
+|-----------------|-------------------------|
+| Language        | Java 17                 |
+| UI Automation   | Selenium WebDriver 4.21 |
+| Test Runner     | TestNG 7.10             |
+| API Testing     | REST Assured 5.4        |
+| Build           | Maven                   |
+| Reporting       | ExtentReports / Allure  |
+| Logging         | Log4j2                  |
+| CI              | Jenkins (Pipeline)      |
+| Version Control | Git + GitHub            |
 
 ---
 
@@ -65,11 +67,13 @@ Selenium-Automation-Framework/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - JDK 17+
 - Maven 3.8+
 - Chrome / Firefox / Edge installed
 
 ### Clone & Run
+
 ```bash
 git clone https://github.com/<your-username>/Selenium-Automation-Framework.git
 cd Selenium-Automation-Framework
@@ -77,17 +81,20 @@ mvn clean test
 ```
 
 ### Run a specific suite
+
 ```bash
 mvn test -Dsuite=smoke
 mvn test -Dsuite=regression
 ```
 
 ### Run on a specific browser / environment
+
 ```bash
 mvn test -Dbrowser=firefox -Denv=staging
 ```
 
 ### View the report
+
 After execution, open: `test-output/extent-reports/index.html`
 
 ---
@@ -129,11 +136,11 @@ public void validLogin() {
 
 ## 📊 Test Coverage Progress
 
-| Module | UI Tests | API Tests | Status |
-|---|---|---|---|
-| Login & Auth | 0 / 8 | 0 / 4 | 🟡 In progress |
-| Product Catalog | 0 / 6 | 0 / 3 | ⚪ Not started |
-| Cart & Checkout | 0 / 10 | 0 / 5 | ⚪ Not started |
+| Module          | UI Tests | API Tests | Status         |
+|-----------------|----------|-----------|----------------|
+| Login & Auth    | 0 / 8    | 0 / 4     | 🟡 In progress |
+| Product Catalog | 0 / 6    | 0 / 3     | ⚪ Not started  |
+| Cart & Checkout | 0 / 10   | 0 / 5     | ⚪ Not started  |
 
 ---
 
